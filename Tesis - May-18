@@ -1986,7 +1986,7 @@
   {
    "cell_type": "code",
    "execution_count": 5,
-   "id": "34b43328",
+   "id": "1c9faa24",
    "metadata": {},
    "outputs": [],
    "source": [
@@ -2024,7 +2024,7 @@
   {
    "cell_type": "code",
    "execution_count": 6,
-   "id": "6f44a968",
+   "id": "5907060a",
    "metadata": {},
    "outputs": [],
    "source": [
@@ -2099,7 +2099,7 @@
   {
    "cell_type": "code",
    "execution_count": 7,
-   "id": "259919b8",
+   "id": "89b89899",
    "metadata": {},
    "outputs": [
     {
@@ -3661,8 +3661,8 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 10,
-   "id": "e81dc790",
+   "execution_count": 8,
+   "id": "c3fdcb42",
    "metadata": {
     "scrolled": true
    },
@@ -3946,8 +3946,8 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 11,
-   "id": "83063d3f",
+   "execution_count": 9,
+   "id": "9741ec5c",
    "metadata": {},
    "outputs": [
     {
@@ -3965,7 +3965,7 @@
      "traceback": [
       "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
       "\u001b[0;31mValueError\u001b[0m                                Traceback (most recent call last)",
-      "\u001b[0;32m<ipython-input-11-f8833c122f41>\u001b[0m in \u001b[0;36m<module>\u001b[0;34m\u001b[0m\n\u001b[0;32m----> 1\u001b[0;31m \u001b[0mevalua_multiples_metodos\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mX\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mdefault\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0;34m[\u001b[0m\u001b[0;34m\"l1\"\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0;34m\"l2\"\u001b[0m\u001b[0;34m]\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mp\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0;36m10\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m",
+      "\u001b[0;32m<ipython-input-9-f8833c122f41>\u001b[0m in \u001b[0;36m<module>\u001b[0;34m\u001b[0m\n\u001b[0;32m----> 1\u001b[0;31m \u001b[0mevalua_multiples_metodos\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mX\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mdefault\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0;34m[\u001b[0m\u001b[0;34m\"l1\"\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0;34m\"l2\"\u001b[0m\u001b[0;34m]\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mp\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0;36m10\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m",
       "\u001b[0;32m<ipython-input-6-118ec77136a7>\u001b[0m in \u001b[0;36mevalua_multiples_metodos\u001b[0;34m(X, y, penalty, logreg_lambda, k_neigh, max_depth, C, n_estimators, p)\u001b[0m\n\u001b[1;32m     41\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     42\u001b[0m             \u001b[0;32mif\u001b[0m \u001b[0mnombre\u001b[0m \u001b[0;34m==\u001b[0m \u001b[0;34m\"Regresión logística\"\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m---> 43\u001b[0;31m                 \u001b[0mlambdas_opt\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mevalua_config\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mnombre\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mmodelo\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mlogreg_lambda\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mX\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0my\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mpenalty\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mp\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m     44\u001b[0m                 \u001b[0moutput\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0moutput\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mappend\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mevalua_metodo\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mmodelo\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mpenalty\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mlambdas_opt\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0;34m\"Penalty\"\u001b[0m\u001b[0;34m]\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0;36m0\u001b[0m\u001b[0;34m]\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mC\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0;36m1\u001b[0m\u001b[0;34m/\u001b[0m\u001b[0mlambdas_opt\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0;34m\"Hiperparámetro\"\u001b[0m\u001b[0;34m]\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0;36m0\u001b[0m\u001b[0;34m]\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0ml1_ratio\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0;36m0.5\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0msolver\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0;34m\"saga\"\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mX_train\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mY_train\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mX_test\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mY_test\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0;36m0\u001b[0m\u001b[0;34m]\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mignore_index\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0;32mTrue\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     45\u001b[0m             \u001b[0;32mif\u001b[0m \u001b[0mnombre\u001b[0m \u001b[0;34m==\u001b[0m \u001b[0;34m\"KNN\"\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
       "\u001b[0;32m<ipython-input-5-68806d01a3fa>\u001b[0m in \u001b[0;36mevalua_config\u001b[0;34m(nombre, modelo, hyper_list, X, y, penalty, p)\u001b[0m\n\u001b[1;32m     20\u001b[0m         \u001b[0;32mfor\u001b[0m \u001b[0mpen\u001b[0m \u001b[0;32min\u001b[0m \u001b[0mpenalty\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     21\u001b[0m             \u001b[0;31m#Usamos cross_validation para obtener los resultados en base al penalty\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m---> 22\u001b[0;31m             \u001b[0mdatos2\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mcross_validation\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mX\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0my\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mnombre\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mmodelo\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mpen\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mhyper_list\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mp\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m     23\u001b[0m     \u001b[0;32melse\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     24\u001b[0m         \u001b[0mdatos2\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mcross_validation\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mX\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0my\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mnombre\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mmodelo\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0;34m\"-\"\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mhyper_list\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mp\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
       "\u001b[0;32m<ipython-input-4-9d806ca67f85>\u001b[0m in \u001b[0;36mcross_validation\u001b[0;34m(X, y, nombre, modelo, penalty, hyper_list, p)\u001b[0m\n\u001b[1;32m     40\u001b[0m             \u001b[0;31m#Usamos evalua_metodo para obtener el ecm y agregamos los datos al dataframe\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     41\u001b[0m             \u001b[0;32mif\u001b[0m \u001b[0mnombre\u001b[0m \u001b[0;34m==\u001b[0m \u001b[0;34m\"Regresión logística\"\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m---> 42\u001b[0;31m                 \u001b[0mevalua_metodo\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mmodelo\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mpenalty\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mpenalty\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mC\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0;36m1\u001b[0m\u001b[0;34m/\u001b[0m\u001b[0mhiper\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0msolver\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0;34m'saga'\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0ml1_ratio\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0;36m0.5\u001b[0m\u001b[0;34m,\u001b[0m\u001b[0mrandom_state\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0;36m1\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mmax_iter\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0;36m1000\u001b[0m\u001b[0;34m)\u001b[0m \u001b[0;34m,\u001b[0m \u001b[0mx_train\u001b[0m \u001b[0;34m,\u001b[0m \u001b[0my_train\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mx_test\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0my_test\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m     43\u001b[0m             \u001b[0;32mif\u001b[0m \u001b[0mnombre\u001b[0m \u001b[0;34m==\u001b[0m \u001b[0;34m\"KNN\"\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     44\u001b[0m                 \u001b[0mevalua_metodo\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mmodelo\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mn_neighbors\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mhiper\u001b[0m\u001b[0;34m)\u001b[0m \u001b[0;34m,\u001b[0m \u001b[0mx_train\u001b[0m \u001b[0;34m,\u001b[0m \u001b[0my_train\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mx_test\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0my_test\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
@@ -3988,7 +3988,7 @@
   {
    "cell_type": "code",
    "execution_count": null,
-   "id": "785a4cf2",
+   "id": "f4397ddd",
    "metadata": {},
    "outputs": [],
    "source": []
@@ -3996,7 +3996,7 @@
   {
    "cell_type": "code",
    "execution_count": null,
-   "id": "79e60e52",
+   "id": "7d25ff9e",
    "metadata": {},
    "outputs": [],
    "source": []
